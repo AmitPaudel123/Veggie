@@ -4,7 +4,7 @@ const Blog = () => {
   return (
     <>
       <div className="w-fit mx-auto py-12">
-        <div className="mb-14">
+        <div className="mb-14 mx-5">
           <p className=" text-3xl font-bold mb-3">Our Blog</p>
           <p>
             Passages of Lorem Ipsum available, but the majority have suffered
@@ -25,7 +25,7 @@ const Blog = () => {
               View more
             </button>
           </div>
-          <img src={img} alt="" />
+          <img src={img} alt="" className="mx-5"/>
         </div>
       </div>
     </>

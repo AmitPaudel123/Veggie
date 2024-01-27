@@ -7,7 +7,7 @@ import insta from "../Images/insta.png";
 const Footer = () => {
   return (
     <>
-      <div className=" bg-gray-950 text-white flex flex-col gap-5 lg:flex-row  justify-around px-20 py-14">
+      <div className=" bg-gray-950 text-white flex flex-col gap-5 lg:flex-row  justify-around px-10 py-14">
         <div>
           <p className=" text-3xl">Useful Links</p>
           <div className=" flex flex-col ">

@@ -4,7 +4,7 @@ import map from "../Images/map.jpg";
 const Contact = () => {
   return (
     <>
-      <div className=" my-16">
+      <div className=" my-16 mx-5">
         <p className=" text-3xl font-bold text-center my-8">Get In Touch</p>
         <div className=" flex flex-col lg:flex-row justify-center gap-10">
           <div className="flex flex-col space-y-7">

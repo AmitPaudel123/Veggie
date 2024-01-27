@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className=" bg-green-600">
+      <div className=" bg-green-600 sticky top-0 z-[99999]">
         <div className=" flex space-x-10 justify-between items-center py-6 px-10 lg:pl-20 lg:pr-40">
           <div>
             <img src={logo} alt="" />
@@ -50,8 +50,9 @@ const Navbar = () => {
           </div>
         </div>
 
+
         {showNav && (
-          <div className="h-fit flex flex-col space-y-3 text-white text-xl justify-center items-center py-2 lg:hidden">
+          <div className="sticky top-0 z-[99999] h-fit flex flex-col space-y-3 text-white text-xl justify-center items-center py-2 lg:hidden">
             <Link
               to="/"
               className="hover:text-black"
